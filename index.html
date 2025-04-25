@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de tareas</h1>
+        <input type="text" id="inputTarea" placeholder="Añadir nueva tarea">
+        <label for="tipoTarea">Selecciona el tipo de tarea</label>
+        <select id="tipoTarea">
+            <option value="opcional">&#129001;Opcional</option>
+            <option value="obligatoria">&#128998;Obligatorio</option>
+            <option value="urgente">&#128997;Urgente</option>
+        </select>
+        <p id="error"></p>
+        <div>
+            <p>
+                &#129001;Opcional &#128998;Obligatorio &#128997;Urgente
+            </p>
+        </div>
+        <button id="buttonAdd">Añadir</button>
+        
+        <ul id="listaTareas">
+        </ul>
+            
+         
+
+        <script src="javascript/funciones2.js"></script>
+
+    </div>
+</body>
+</html>

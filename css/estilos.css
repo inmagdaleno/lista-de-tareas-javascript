@@ -5,9 +5,9 @@ html{
     width: 100%;
     max-width: 800px;
     background-color: aliceblue;
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 3rem;
-    box-shadow: 0 2px 5px rgb(141, 141, 141);
+    box-shadow: 0 10px 15px rgb(141, 141, 141);
     margin: 5rem;
     justify-self: center;
 }
